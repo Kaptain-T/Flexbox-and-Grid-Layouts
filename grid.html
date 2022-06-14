@@ -5,11 +5,31 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
 <title>Grid Design</title>
 
 <style>
+main > a{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Lexend Deca";
+  text-align: center;
+  border-radius: 20px;
+  width: 100px;
+  position: absolute;
+  left: 75%;
+  top: 150px;
+  text-decoration: none;
+  padding: 10px;
+  background: #01aefd;
+}
 
-
+main > a:hover {
+  color: white;
+  border: 2px solid white ;
+  background-color:black;
+}
 #boxes-container {
 background-color: #1a1c28;
   width: 900px;
@@ -61,6 +81,7 @@ background-color: #1a1c28;
 
 <body>
   <main>
+    <a href="index.html">Flex layout</a>
     <div id="boxes-container">
       <div id="boxes-wrapper">
         <div class="box1"></div>
